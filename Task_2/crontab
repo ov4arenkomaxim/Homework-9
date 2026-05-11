@@ -21,6 +21,6 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-*/30 * * * * /usr/local/bin/disk-monitor.sh 90 >> /var/log/disk-cron.log 2>&1 
+*/30 * * * * /usr/local/bin/disk-monitor.sh 90 >> /var/log/disk-cron.log 2>&1 # Перевірка обсягу кожні тридцять секунд, повідомити якщо перевищує 90 відсотків.
 
 
