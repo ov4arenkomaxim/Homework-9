@@ -1,4 +1,4 @@
-heck process nginx with pidfile /run/nginx.pid
+check process nginx with pidfile /run/nginx.pid
     start program = "/usr/sbin/service nginx start"
     stop program  = "/usr/sbin/service nginx stop"
 
@@ -6,3 +6,4 @@ heck process nginx with pidfile /run/nginx.pid
     then restart
 
     if 7 restarts within 7 cycles then timeout
+
