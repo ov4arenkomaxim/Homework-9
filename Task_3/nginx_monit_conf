@@ -6,4 +6,3 @@ check process nginx with pidfile /run/nginx.pid
     then restart
 
     if 7 restarts within 7 cycles then timeout
-
